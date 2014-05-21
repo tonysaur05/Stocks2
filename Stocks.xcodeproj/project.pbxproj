@@ -12,6 +12,7 @@
 		46230332192C34CC00E9E345 /* Stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46230331192C34CC00E9E345 /* Stocks.1 */; };
 		4623033A192C446C00E9E345 /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230339192C446C00E9E345 /* BNRStockHolding.m */; };
 		46230340192C6B0F00E9E345 /* BNRForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4623033F192C6B0F00E9E345 /* BNRForeignStockHolding.m */; };
+		46230343192C745A00E9E345 /* BNRPortfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230342192C745A00E9E345 /* BNRPortfolio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		46230339192C446C00E9E345 /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStockHolding.m; sourceTree = "<group>"; };
 		4623033E192C6B0F00E9E345 /* BNRForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRForeignStockHolding.h; sourceTree = "<group>"; };
 		4623033F192C6B0F00E9E345 /* BNRForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRForeignStockHolding.m; sourceTree = "<group>"; };
+		46230341192C745A00E9E345 /* BNRPortfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRPortfolio.h; sourceTree = "<group>"; };
+		46230342192C745A00E9E345 /* BNRPortfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRPortfolio.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,8 @@
 		4623031E192C34CC00E9E345 = {
 			isa = PBXGroup;
 			children = (
+				46230341192C745A00E9E345 /* BNRPortfolio.h */,
+				46230342192C745A00E9E345 /* BNRPortfolio.m */,
 				46230338192C446C00E9E345 /* BNRStockHolding.h */,
 				4623033E192C6B0F00E9E345 /* BNRForeignStockHolding.h */,
 				4623033F192C6B0F00E9E345 /* BNRForeignStockHolding.m */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46230340192C6B0F00E9E345 /* BNRForeignStockHolding.m in Sources */,
+				46230343192C745A00E9E345 /* BNRPortfolio.m in Sources */,
 				4623032E192C34CC00E9E345 /* main.m in Sources */,
 				4623033A192C446C00E9E345 /* BNRStockHolding.m in Sources */,
 			);
