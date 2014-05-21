@@ -10,6 +10,8 @@
 		4623032B192C34CC00E9E345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4623032A192C34CC00E9E345 /* Foundation.framework */; };
 		4623032E192C34CC00E9E345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4623032D192C34CC00E9E345 /* main.m */; };
 		46230332192C34CC00E9E345 /* Stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46230331192C34CC00E9E345 /* Stocks.1 */; };
+		4623033A192C446C00E9E345 /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230339192C446C00E9E345 /* BNRStockHolding.m */; };
+		46230340192C6B0F00E9E345 /* BNRForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = 4623033F192C6B0F00E9E345 /* BNRForeignStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		4623032D192C34CC00E9E345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46230330192C34CC00E9E345 /* Stocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stocks-Prefix.pch"; sourceTree = "<group>"; };
 		46230331192C34CC00E9E345 /* Stocks.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Stocks.1; sourceTree = "<group>"; };
+		46230338192C446C00E9E345 /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStockHolding.h; sourceTree = "<group>"; };
+		46230339192C446C00E9E345 /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStockHolding.m; sourceTree = "<group>"; };
+		4623033E192C6B0F00E9E345 /* BNRForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRForeignStockHolding.h; sourceTree = "<group>"; };
+		4623033F192C6B0F00E9E345 /* BNRForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRForeignStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,10 @@
 		4623031E192C34CC00E9E345 = {
 			isa = PBXGroup;
 			children = (
+				46230338192C446C00E9E345 /* BNRStockHolding.h */,
+				4623033E192C6B0F00E9E345 /* BNRForeignStockHolding.h */,
+				4623033F192C6B0F00E9E345 /* BNRForeignStockHolding.m */,
+				46230339192C446C00E9E345 /* BNRStockHolding.m */,
 				4623032C192C34CC00E9E345 /* Stocks */,
 				46230329192C34CC00E9E345 /* Frameworks */,
 				46230328192C34CC00E9E345 /* Products */,
@@ -139,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46230340192C6B0F00E9E345 /* BNRForeignStockHolding.m in Sources */,
 				4623032E192C34CC00E9E345 /* main.m in Sources */,
+				4623033A192C446C00E9E345 /* BNRStockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
